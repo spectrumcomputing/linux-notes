@@ -3,7 +3,7 @@
 ### Install required packages
 
 ```
-sudo apt-get install neofetch gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make pavucontrol
+sudo apt-get install neofetch gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make pavucontrol chrome-gnome-shell
 ```
 ### Replace Snap installed packages so icon themes work (Ubuntu 19.04)
 ```
@@ -65,3 +65,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```
+### Useful Links
+
+https://www.omgubuntu.co.uk/2017/05/how-to-update-gnome-extensions
+
+https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-19-04-7ccfeda5935

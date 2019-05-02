@@ -65,6 +65,23 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```
+
+### Vulkan Drivers for AMD Graphics Cards
+
+```
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update
+sudo apt upgrade
+sudo apt install libvulkan1 mesa-vulkan-drivers vulkan-utils
+vulkaninfo | less
+```
+### Checking the version of Mesa Drivers
+```
+sudo apt install mesa-utils
+glxinfo | grep "OpenGL version"
+```
+
+
 ### Useful Links
 
 https://www.omgubuntu.co.uk/2017/05/how-to-update-gnome-extensions

@@ -3,7 +3,12 @@
 ### Install required packages
 
 ```
-sudo apt-get install neofetch gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make pavucontrol pasmo
+sudo apt-get install neofetch gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make pavucontrol
+```
+### Replace Snap installed packages so icon themes work (Ubuntu 19.04)
+```
+sudo snap remove gnome-calculator gnome-characters gnome-logs gnome-system-monitor
+sudo apt install gnome-calculator gnome-characters gnome-logs gnome-system-monitor
 ```
 
 ### Papirus Icon Theme

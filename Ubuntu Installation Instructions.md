@@ -72,3 +72,5 @@ https://www.omgubuntu.co.uk/2017/05/how-to-update-gnome-extensions
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 
 https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-19-04-7ccfeda5935
+
+https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/

@@ -3,7 +3,7 @@
 ### Install required packages
 
 ```
-sudo apt-get install neofetch gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make pavucontrol chrome-gnome-shell
+sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell
 ```
 ### Replace Snap installed packages so icon themes work
 ```
@@ -47,7 +47,20 @@ sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt update  
 sudo apt install flatpak  
 sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
+
+### VMWare Workstation
+
+```
+sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms build-essential
+```
+
+https://www.vmware.com/uk/products/workstation-pro/workstation-pro-evaluation.html
+
+```
+chmod +x VMware*.bundle
+sudo ./VMware*.bundle
+
 ```
 ### Ungroup Utilities on Gnome Desktop
 ```

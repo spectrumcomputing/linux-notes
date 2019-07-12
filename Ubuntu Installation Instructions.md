@@ -81,3 +81,7 @@ https://www.omgubuntu.co.uk/2017/05/how-to-update-gnome-extensions
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 
 https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
+
+https://kb.vmware.com/s/article/1002411
+
+https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04

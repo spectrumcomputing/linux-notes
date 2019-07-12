@@ -49,6 +49,7 @@ sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak  
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
 
+```
 ### VMWare Workstation
 
 ```
@@ -60,7 +61,6 @@ https://www.vmware.com/uk/products/workstation-pro/workstation-pro-evaluation.ht
 ```
 chmod +x VMware*.bundle
 sudo ./VMware*.bundle
-
 ```
 ### Ungroup Utilities on Gnome Desktop
 ```

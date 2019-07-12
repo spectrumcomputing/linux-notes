@@ -69,7 +69,7 @@ https://linuxconfig.org/install-vmware-tools-on-ubuntu-18-04-bionic-beaver-linux
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```
 
-### Find Windows 10 Product Ket
+### Find Windows 10 Product Key
 ```
 sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 ```

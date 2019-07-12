@@ -62,9 +62,16 @@ https://www.vmware.com/uk/products/workstation-pro/workstation-pro-evaluation.ht
 chmod +x VMware*.bundle
 sudo ./VMware*.bundle
 ```
+https://linuxconfig.org/install-vmware-tools-on-ubuntu-18-04-bionic-beaver-linux
+
 ### Ungroup Utilities on Gnome Desktop
 ```
 gsettings set org.gnome.desktop.app-folders folder-children ['']
+```
+
+### Find Windows 10 Product Ket
+```
+sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 ```
 
 ### Useful Links

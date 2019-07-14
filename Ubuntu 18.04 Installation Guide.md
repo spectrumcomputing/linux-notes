@@ -18,7 +18,7 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt update && sudo apt install papirus-icon-theme  
 ```
 
-### Docker (Ubuntu 18.04)
+### Docker
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  

@@ -80,12 +80,21 @@ gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```
 sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 ```
+### Completely remove a package
+
+```
+sudo apt-get purge --auto-remove packagename
+```
 
 ### Useful Links
 
 https://www.omgubuntu.co.uk/2017/05/how-to-update-gnome-extensions
 
 https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+https://extensions.gnome.org/extension/750/openweather/
+
+https://extensions.gnome.org/extension/836/internet-radio/
 
 https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
 
@@ -94,3 +103,5 @@ https://kb.vmware.com/s/article/1002411
 https://celluloid-player.github.io/installation.html
 
 https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04
+
+https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application

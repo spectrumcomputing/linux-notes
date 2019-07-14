@@ -56,6 +56,14 @@ sudo add-apt-repository ppa:xuzhen666/gnome-mpv
 sudo apt-get update
 sudo apt-get install gnome-mpv
 ```
+### Stacer (System Optimizer and Monitor)
+
+'''
+sudo add-apt-repository ppa:oguzhaninan/stacer -y
+sudo apt-get update
+sudo apt-get install stacer -y
+```
+https://github.com/oguzhaninan/Stacer
 
 ### VMWare Workstation
 

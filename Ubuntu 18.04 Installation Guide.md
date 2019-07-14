@@ -58,7 +58,7 @@ sudo apt-get install gnome-mpv
 ```
 ### Stacer (System Optimizer and Monitor)
 
-'''
+```
 sudo add-apt-repository ppa:oguzhaninan/stacer -y
 sudo apt-get update
 sudo apt-get install stacer -y
@@ -123,3 +123,5 @@ https://celluloid-player.github.io/installation.html
 https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04
 
 https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application
+
+https://odio.io/

@@ -48,8 +48,15 @@ sudo apt update
 sudo apt install flatpak  
 sudo apt install gnome-software-plugin-flatpak  
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
-
 ```
+
+### Celluloid (formerly GNOME MPV) 
+```
+sudo add-apt-repository ppa:xuzhen666/gnome-mpv
+sudo apt-get update
+sudo apt-get install gnome-mpv
+```
+
 ### VMWare Workstation
 
 ```
@@ -83,5 +90,7 @@ https://extensions.gnome.org/extension/1160/dash-to-panel/
 https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
 
 https://kb.vmware.com/s/article/1002411
+
+https://celluloid-player.github.io/installation.html
 
 https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04

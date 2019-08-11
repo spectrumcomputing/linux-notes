@@ -1,4 +1,4 @@
-## Ubuntu Post Clean Installation Extras
+## Additional Packages Installation Guide
 
 ### Install required packages
 

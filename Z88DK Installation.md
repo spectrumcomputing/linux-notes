@@ -20,8 +20,7 @@ Then enter:
 
 Supposing you want to keep z88dk in your local user environment (AKA 'home directory'), you can configure it permanently in this way:
  
-
-    nano ~/.bash_profile
+`nano ~/.bash_profile`
 
     export PATH=${PATH}:${HOME}/z88dk/bin
     export ZCCCFG=${HOME}/z88dk/lib/config

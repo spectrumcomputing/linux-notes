@@ -43,3 +43,9 @@ peter@ubuntu:~$ z80asm
 Z80 Module Assembler 15100-08748e6-20190811
 (c) InterLogic 1993-2009, Paulo Custodio 2011-2019
 ```
+```
+peter@ubuntu:~$ appmake 
+appmake [+target] [options]
+
+The z88dk application generator
+```

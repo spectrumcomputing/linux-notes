@@ -84,4 +84,11 @@ appmake [+target] [options]
 
 The z88dk application generator
 ```
-You should now be able to follow the excellent tutorial 
+You should now be able to follow the excellent tutorial on Spectrum C Development which is available here:
+
+https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingStarted.md
+
+If you love the ZX Spectrum as much as I do, feel free to visit our website at:
+
+https://spectrumcomputing.co.uk/
+https://spectrumcomputing.co.uk/forums

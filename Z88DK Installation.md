@@ -38,3 +38,8 @@ peter@ubuntu:~$ zsdcc -v
 ZSDCC IS A MODIFICATION OF SDCC FOR Z88DK
 Build: 3.9.1 #11310 (Linux) Aug 11 2019
 ```
+```
+peter@ubuntu:~$ z80asm
+Z80 Module Assembler 15100-08748e6-20190811
+(c) InterLogic 1993-2009, Paulo Custodio 2011-2019
+```

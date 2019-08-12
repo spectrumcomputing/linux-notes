@@ -31,3 +31,9 @@ Start off by using the command `nano ~/.bashrc` to edit your bash profile, then 
     zcc - Frontend for the z88dk Cross-C Compiler - v15100-08748e6-20190811
     
     Usage: zcc +[target] {options} {files}
+    
+    peter@ubuntu:~$ zsdcc -v
+
+    ZSDCC IS A MODIFICATION OF SDCC FOR Z88DK
+    Build: 3.9.1 #11310 (Linux) Aug 11 2019
+

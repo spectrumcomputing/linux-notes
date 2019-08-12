@@ -21,19 +21,20 @@ Then enter:
 Supposing you want to keep z88dk in your local user environment (AKA 'home directory'), you can configure it permanently in this way:
 
 Start off by using the command `nano ~/.bashrc` to edit your bash profile, then scroll down to the bottom of the file and enter the following commands:
-
-    export PATH=${PATH}:${HOME}/z88dk/bin
-    export ZCCCFG=${HOME}/z88dk/lib/config
+```
+export PATH=${PATH}:${HOME}/z88dk/bin
+export ZCCCFG=${HOME}/z88dk/lib/config
+```   
+Finally, save the file with `CTRL + X` and `Y` to confirm changes.  After a reboot it's time to test the installation
+``` 
+peter@ubuntu:~$ zcc
+zcc - Frontend for the z88dk Cross-C Compiler - v15100-08748e6-20190811
     
- Finally, save the file with `CTRL + X` and `Y` to confirm changes.  After a reboot it's time to test the installation
- 
-    peter@ubuntu:~$ zcc
-    zcc - Frontend for the z88dk Cross-C Compiler - v15100-08748e6-20190811
-    
-    Usage: zcc +[target] {options} {files}
-    
-    peter@ubuntu:~$ zsdcc -v
+Usage: zcc +[target] {options} {files}
+```    
+```   
+peter@ubuntu:~$ zsdcc -v
 
-    ZSDCC IS A MODIFICATION OF SDCC FOR Z88DK
-    Build: 3.9.1 #11310 (Linux) Aug 11 2019
-
+ZSDCC IS A MODIFICATION OF SDCC FOR Z88DK
+Build: 3.9.1 #11310 (Linux) Aug 11 2019
+```

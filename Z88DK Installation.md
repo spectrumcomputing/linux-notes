@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide is for getting started with installing the z88dk C development suite in Ubuntu 18.04 or 19.04.  I'm assuming that you are reasonably proficient in using the command line.
+This guide is for getting started with installing the z88dk C development suite in Ubuntu 18.04 or 19.04. The target machine here is the Sinclair ZX Spectrum. I'm assuming that you are reasonably proficient in using the command line.
 
 Much of the information I'm using comes from the following two GitHub repositories:
 

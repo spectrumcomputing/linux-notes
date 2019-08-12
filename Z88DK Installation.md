@@ -1,5 +1,8 @@
 # Installing z88dk on Ubuntu Linux 18.04 or 19.04
 
+This guide is for getting started with installing the z88dk C development suite in Ubuntu 18.04 or 19.04.  If you don't already have an emulator installed I reccomend Fuse. From the command line, enter the following commands to install it:
+    sudo apt-get install fuse-emulator-gtk spectrum-roms
+
 Download the latest nightly checked source package and unzip it:
 
     wget http://nightly.z88dk.org/z88dk-latest.tgz

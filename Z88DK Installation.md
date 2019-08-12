@@ -94,4 +94,7 @@ https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingS
 If you love the ZX Spectrum as much as I do, feel free to visit our website at:
 
 https://spectrumcomputing.co.uk/
+
+We are have a forum which is available here:
+
 https://spectrumcomputing.co.uk/forums

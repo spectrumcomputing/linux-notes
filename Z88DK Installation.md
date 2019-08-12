@@ -18,6 +18,16 @@ Sometimes the versions of Fuse in the Ubuntu repositories are out of date.  If y
 
 https://flathub.org/apps/details/net.sf.fuse_emulator
 
+Ubuntu 18.04 does not have FlatPak installed by default, but it can easily be installed by using the following commands:
+``` 
+sudo add-apt-repository ppa:alexlarsson/flatpak  
+sudo apt update  
+sudo apt install flatpak  
+sudo apt install gnome-software-plugin-flatpak  
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
+``` 
+
+Once you have rebooted you can install Fuse using `flatpak install flathub net.sf.fuse_emulator'
 ## Getting Started with z88dk
 
 Download the latest nightly checked source package and unzip it:
@@ -29,7 +39,7 @@ This will create a populated z88dk directory in the current working directory.
 
 You will need the following libraries/packages installed to successfully build z88dk:
 
-    sudo apt-get install dos2unix libboost-all-dev texinfo texi2html libxml2-dev subversion bison flex
+    sudo apt-get install dos2unix libboost-all-dev texinfo texi2html libxml2-dev subversion bison flex zlib1g-dev
     sudo apt-get install zlib1g-dev
     
 Then enter:
@@ -72,3 +82,4 @@ appmake [+target] [options]
 
 The z88dk application generator
 ```
+You should now be able to follow the excellent tutorial 

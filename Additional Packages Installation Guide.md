@@ -3,7 +3,7 @@
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell
+sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer
 ```
 ### Replace Snap installed packages so icon themes work
 ```
@@ -40,7 +40,7 @@ nodejs -v
 npm -v  
 ```
 
-### Flatpak
+### Flatpak (18.04 Only)
 
 ```
 sudo add-apt-repository ppa:alexlarsson/flatpak  

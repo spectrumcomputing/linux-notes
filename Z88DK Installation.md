@@ -61,7 +61,7 @@ export ZCCCFG=${HOME}/z88dk/lib/config
 ```   
 Finally, save the file with `CTRL + X` and `Y` to confirm changes.  After a reboot it's time to test the installation
 
-The first step is to check the necessary tools are in place. Running each of these commands should produce something similar to the output given:
+The first step is to check that everyone has installed correctly and that the necessary tools are in place. Running each of these commands should produce something similar to the output given:
 
 ``` 
 peter@ubuntu:~$ zcc

@@ -26,6 +26,9 @@ export PATH=${PATH}:${HOME}/z88dk/bin
 export ZCCCFG=${HOME}/z88dk/lib/config
 ```   
 Finally, save the file with `CTRL + X` and `Y` to confirm changes.  After a reboot it's time to test the installation
+
+The first step is to check the necessary tools are in place. Running each of these commands should produce something similar to the output given:
+
 ``` 
 peter@ubuntu:~$ zcc
 zcc - Frontend for the z88dk Cross-C Compiler - v15100-08748e6-20190811

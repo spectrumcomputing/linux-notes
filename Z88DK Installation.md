@@ -52,7 +52,7 @@ Then enter:
     chmod 777 build.sh
     ./build.sh
 
-Supposing you want to keep z88dk in your local user environment (AKA 'home directory'), you can configure it permanently in this way:
+Supposing you want to keep z88dk in your local user environment, you can configure it permanently in this way:
 
 Start off by using the command `nano ~/.bashrc` to edit your bash profile, then scroll down to the bottom of the file and enter the following commands:
 ```

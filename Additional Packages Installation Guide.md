@@ -3,7 +3,7 @@
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer
+sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer ffmpeg neofetch
 ```
 ### Replace Snap installed packages so icon themes work
 ```
@@ -102,6 +102,13 @@ sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 
 ```
 sudo apt-get purge --auto-remove packagename
+```
+### Convert M4A audio files to MP3
+
+```
+ffmpeg -i audio.m4a -acodec libmp3lame -ab 256k audio.mp3
+ffmpeg -i audio.m4a -acodec libmp3lame audio.mp3
+ffmpeg -v 5 -y -i audio.m4a -acodec libmp3lame -ac 2 -ab 192k audio.mp3
 ```
 
 ### Useful Links

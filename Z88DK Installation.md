@@ -45,7 +45,6 @@ This will create a populated z88dk directory in the current working directory.
 You will need the following libraries/packages installed to successfully build z88dk:
 
     sudo apt-get install dos2unix libboost-all-dev texinfo texi2html libxml2-dev subversion bison flex zlib1g-dev
-    sudo apt-get install zlib1g-dev
     
 Then enter:
 

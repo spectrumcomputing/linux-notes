@@ -1,4 +1,4 @@
-## Additional Packages Installation Guide
+## Additional Packages Installation Guide (Ubuntu 18.04 and later)
 
 ### Install required packages
 

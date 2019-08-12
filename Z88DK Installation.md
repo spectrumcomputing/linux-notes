@@ -1,4 +1,4 @@
-# Installing z88dk on Ubuntu Linux 18.04 or 19.04
+# Installing z88dk on Ubuntu Linux 18.04, 18.10 or 19.04
 
 ## Introduction
 

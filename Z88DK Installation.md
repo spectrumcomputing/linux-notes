@@ -27,7 +27,9 @@ sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 ``` 
 
-Once you have rebooted you can install Fuse using `flatpak install flathub net.sf.fuse_emulator'
+Once you have rebooted you can install Fuse using:
+
+    flatpak install flathub net.sf.fuse_emulator
 ## Getting Started with z88dk
 
 Download the latest nightly checked source package and unzip it:

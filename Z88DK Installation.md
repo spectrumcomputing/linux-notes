@@ -19,8 +19,8 @@ Then enter:
     ./build.sh
 
 Supposing you want to keep z88dk in your local user environment (AKA 'home directory'), you can configure it permanently in this way:
- 
-`nano ~/.bash_profile`
+
+Start of by entering `nano ~/.bash_profile` to edit your bash profile, then enter in the following:
 
     export PATH=${PATH}:${HOME}/z88dk/bin
     export ZCCCFG=${HOME}/z88dk/lib/config

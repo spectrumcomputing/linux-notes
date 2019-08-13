@@ -57,6 +57,8 @@ sudo add-apt-repository ppa:xuzhen666/gnome-mpv
 sudo apt-get update
 sudo apt-get install gnome-mpv
 ```
+https://celluloid-player.github.io/installation.html
+
 ### Stacer (System Optimizer and Monitor)
 
 ```
@@ -104,6 +106,8 @@ sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 ```
 sudo apt-get purge --auto-remove packagename
 ```
+https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application
+
 ### Convert M4A audio files to MP3
 
 ```
@@ -145,11 +149,7 @@ https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
 
 https://kb.vmware.com/s/article/1002411
 
-https://celluloid-player.github.io/installation.html
-
 https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04
-
-https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application
 
 https://odio.io/
 

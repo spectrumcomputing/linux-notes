@@ -1,5 +1,6 @@
 ## Additional Packages Installation Guide (Ubuntu 18.04 and later)
 
+
 ### Install required packages
 
 ```
@@ -110,6 +111,25 @@ ffmpeg -i audio.m4a -acodec libmp3lame -ab 256k audio.mp3
 ffmpeg -i audio.m4a -acodec libmp3lame audio.mp3
 ffmpeg -v 5 -y -i audio.m4a -acodec libmp3lame -ac 2 -ab 192k audio.mp3
 ```
+
+### Nutty (A network utility for linux)
+
+    sudo apt-get install libgranite-dev libnotify-dev libxml2-dev libgee-0.8-dev libgtk-3-dev libsqlite3-dev meson valac net-tools nethogs nmap traceroute vnstat curl wireless-tools iproute2 pciutils git build-essential
+    
+These commands will build Nutty from source:
+
+    git clone https://github.com/babluboy/nutty.git
+    cd nutty
+    meson build --prefix=/usr
+    cd build
+    ninja
+    
+ Then run these commands to install it:
+ 
+     sudo ninja install
+     com.github.babluboy.nutty
+
+https://babluboy.github.io/nutty/
 
 ### Useful Links
 

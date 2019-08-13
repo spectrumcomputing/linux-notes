@@ -61,7 +61,7 @@ sudo apt-get install gnome-mpv
 ```
 ```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub io.github.GnomeMpv
+flatpak install flathub io.github.celluloid_player.Celluloid
 ```
 https://celluloid-player.github.io/installation.html
 

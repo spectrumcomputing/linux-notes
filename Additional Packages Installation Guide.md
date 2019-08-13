@@ -52,10 +52,16 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
 ```
 
 ### Celluloid (formerly GNOME MPV) 
+
+As at 13 August the PPA does not seem to have been updated to version 0.17, so I'm including FlatPak instructions too.
 ```
 sudo add-apt-repository ppa:xuzhen666/gnome-mpv
 sudo apt-get update
 sudo apt-get install gnome-mpv
+```
+```
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub io.github.GnomeMpv
 ```
 https://celluloid-player.github.io/installation.html
 

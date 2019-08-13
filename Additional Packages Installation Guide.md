@@ -152,3 +152,5 @@ https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-works
 https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application
 
 https://odio.io/
+
+https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/

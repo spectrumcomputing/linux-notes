@@ -148,18 +148,23 @@ https://babluboy.github.io/nutty/
     
 Downloading shows:
 Check available video formats with:
+
     youtube-dl -F URL
     
 Download version of your choice:
+
     youtube-dl -f number URL
     
 Download the best quality version:
+
     youtube-dl URL
     
 Check the version:
+
     youtube-dl --version
     
 Upgrade:
+
     pip install --upgrade youtube_dl
 
 ### Useful Links

@@ -142,11 +142,13 @@ These commands will build Nutty from source:
 https://babluboy.github.io/nutty/
 
 ### youtube-dl 
+Installation:
 
     sudo apt-get install python3-pip
     pip3 install youtube-dl
     
 Downloading shows:
+
 Check available video formats with:
 
     youtube-dl -F URL
@@ -186,3 +188,5 @@ https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-works
 https://odio.io/
 
 https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
+
+https://linoxide.com/linux-how-to/install-use-youtube-dl-ubuntu/

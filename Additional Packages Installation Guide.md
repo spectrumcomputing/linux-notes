@@ -168,7 +168,7 @@ Check the version:
     
 Upgrade:
 
-    pip install --upgrade youtube_dl
+    youtube-dl -U
 
 ### Useful Links
 

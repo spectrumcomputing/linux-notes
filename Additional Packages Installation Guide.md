@@ -142,10 +142,11 @@ These commands will build Nutty from source:
 https://babluboy.github.io/nutty/
 
 ### youtube-dl 
-Installation:
+Later versions of Ubuntu only ship with Python3 which is called python3 rather than python. This can cause some problems. This method of installation has been tested on Ubuntu 19.04
 
-    sudo apt-get install python3-pip
-    pip3 install youtube-dl
+    sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+    sudo chmod a+rx /usr/local/bin/youtube-dl
+    sudo ln -s /usr/bin/python3 /usr/local/bin/python
     
 Downloading shows:
 
@@ -157,7 +158,7 @@ Download version of your choice:
 
     youtube-dl -f number URL
     
-Download the best quality version:
+Download the best quality version (Note that by default youtube-dl tries to download the best available quality):
 
     youtube-dl URL
     
@@ -190,3 +191,5 @@ https://odio.io/
 https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
 https://linoxide.com/linux-how-to/install-use-youtube-dl-ubuntu/
+
+https://github.com/ytdl-org/youtube-dl

@@ -1,11 +1,23 @@
-## Additional Packages Installation Guide (Ubuntu 18.04 and later)
+## Additional Packages Installation Notes (Fully tested on Ubuntu 18.04 and 19.04)
+
+You are advised not to copy and paste commands without knowing what they do.  There are links to more information throughout this document to additional information
 
 
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool arc-theme apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer ffmpeg neofetch
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer 
 ```
+
+### Optional nice to have packages 
+(Neofetch (A command-line system information tool written in bash 3.2+), Arc-Theme (Arc is a flat theme with transparent elements) and FFmpeg (A complete, cross-platform solution to record, convert and stream audio and video)
+```
+sudo apt-get install ffmpeg neofetch arc-theme
+```
+https://github.com/dylanaraps/neofetch
+https://ffmpeg.org/
+https://github.com/horst3180/arc-theme
+
 ### Replace Snap installed packages so icon themes work
 ```
 sudo snap remove gnome-calculator gnome-characters gnome-logs gnome-system-monitor
@@ -41,7 +53,7 @@ nodejs -v
 npm -v  
 ```
 
-### Flatpak (18.04 Only)
+### Flatpak 
 
 ```
 sudo add-apt-repository ppa:alexlarsson/flatpak  
@@ -50,20 +62,56 @@ sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak  
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
 ```
+https://flathub.org/home
 
-### Celluloid (formerly GNOME MPV) 
+### Celluloid (formerly GNOME MPV) Flatpak
 
-As at 13 August the PPA does not seem to have been updated to version 0.17, so I'm including FlatPak instructions too.
-```
-sudo add-apt-repository ppa:xuzhen666/gnome-mpv
-sudo apt-get update
-sudo apt-get install gnome-mpv
-```
 ```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub io.github.celluloid_player.Celluloid
 ```
 https://celluloid-player.github.io/installation.html
+
+### Filezilla Flatpak
+FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface
+
+```
+flatpak install flathub org.filezillaproject.Filezilla
+```
+https://flathub.org/apps/details/org.filezillaproject.Filezilla
+
+### Evolution Flatpak
+Manage your email, contacts and schedule
+
+```
+flatpak install flathub org.gnome.Evolution
+```
+https://flathub.org/apps/details/org.gnome.Evolution
+
+### Spotify Flatpak
+Online music streaming service
+
+```
+flatpak install flathub com.spotify.Client
+```
+https://flathub.org/apps/details/com.spotify.Client
+
+### GNOME Feeds
+News reader for GNOME
+
+```
+flatpak install flathub org.gabmus.gnome-feeds
+```
+https://flathub.org/apps/details/org.gabmus.gnome-feeds
+
+### QOwnNotes
+Plain-text file notepad with markdown support and ownCloud integration
+
+```
+flatpak install flathub org.qownnotes.QOwnNotes
+```
+https://flathub.org/apps/details/org.qownnotes.QOwnNotes
+https://www.qownnotes.org/
 
 ### Stacer (System Optimizer and Monitor)
 
@@ -141,6 +189,22 @@ These commands will build Nutty from source:
 
 https://babluboy.github.io/nutty/
 
+### Nmap
+
+Command Line Utility for network discovery and security auditing.
+```
+sudo apt-get install nmap
+sudo nmap -sn 192.168.1.0/24
+```
+https://nmap.org/
+
+### get-iplayer Snap
+Command Line tool for downloading tv and radio programmes from the last 30 days from the BBC iPlayer.
+```
+sudo snap install get-iplayer
+```
+https://snapcraft.io/install/get-iplayer/ubuntu
+
 ### youtube-dl 
 Later versions of Ubuntu only ship with Python3 which is called python3 rather than python. This can cause some problems. This method of installation has been tested on Ubuntu 19.04
 
@@ -190,6 +254,6 @@ https://odio.io/
 
 https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
-https://linoxide.com/linux-how-to/install-use-youtube-dl-ubuntu/
-
 https://github.com/ytdl-org/youtube-dl
+
+https://linuxappstore.io/

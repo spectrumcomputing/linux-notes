@@ -158,7 +158,7 @@ sudo ./VMware*.bundle
 ```
 https://linuxconfig.org/install-vmware-tools-on-ubuntu-18-04-bionic-beaver-linux
 
-### Ungroup Utilities on Gnome Desktop (Does not appear to be a permanent solution
+### Ungroup Utilities on Gnome Desktop (Does not appear to be a permanent solution)
 ```
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```

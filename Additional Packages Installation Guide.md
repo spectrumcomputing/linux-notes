@@ -56,7 +56,7 @@ nodejs -v
 npm -v  
 ```
 ### Flatpak
-##### Ubuntu 18.04)
+##### Ubuntu 18.04
 
 ```
 sudo add-apt-repository ppa:alexlarsson/flatpak  

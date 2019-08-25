@@ -112,14 +112,6 @@ flatpak install flathub com.spotify.Client
 ```
 https://flathub.org/apps/details/com.spotify.Client
 
-### GNOME Feeds Flatpak
-News reader for GNOME
-
-```
-flatpak install flathub org.gabmus.gnome-feeds
-```
-https://flathub.org/apps/details/org.gabmus.gnome-feeds
-
 
 ### Stacer (System Optimizer and Monitor)
 

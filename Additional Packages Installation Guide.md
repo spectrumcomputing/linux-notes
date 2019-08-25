@@ -34,6 +34,7 @@ sudo apt update && sudo apt install papirus-icon-theme
 ```
 
 ### Docker
+#### In Ubuntu 19.04 replace bionic with disco
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
@@ -54,12 +55,21 @@ sudo apt install nodejs
 nodejs -v  
 npm -v  
 ```
-
-### Flatpak 
+### Flatpak
+##### Ubuntu 18.04)
 
 ```
 sudo add-apt-repository ppa:alexlarsson/flatpak  
 sudo apt update  
+sudo apt install flatpak  
+sudo apt install gnome-software-plugin-flatpak  
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
+```
+https://flathub.org/home
+
+##### Ubuntu 19.04
+
+```
 sudo apt install flatpak  
 sudo apt install gnome-software-plugin-flatpak  
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.

@@ -98,7 +98,7 @@ flatpak install flathub com.spotify.Client
 ```
 https://flathub.org/apps/details/com.spotify.Client
 
-### GNOME Feeds
+### GNOME Feeds Flatpak
 News reader for GNOME
 
 ```
@@ -106,7 +106,7 @@ flatpak install flathub org.gabmus.gnome-feeds
 ```
 https://flathub.org/apps/details/org.gabmus.gnome-feeds
 
-### QOwnNotes
+### QOwnNotes Flatpak
 Plain-text file notepad with markdown support and ownCloud integration
 
 ```
@@ -148,12 +148,12 @@ sudo ./VMware*.bundle
 ```
 https://linuxconfig.org/install-vmware-tools-on-ubuntu-18-04-bionic-beaver-linux
 
-### Ungroup Utilities on Gnome Desktop
+### Ungroup Utilities on Gnome Desktop (Does not appear to be a permanent solution
 ```
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 ```
 
-### Find Windows 10 Product Key (Only works where the license key is embedded into the hardware (mainly laptops)
+### Find Windows 10 Product Key - Only works where the license key is embedded into the hardware (mainly laptops)
 ```
 sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
 ```

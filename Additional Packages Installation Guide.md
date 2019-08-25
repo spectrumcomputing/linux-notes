@@ -11,8 +11,11 @@ sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl s
 
 ### Optional nice to have packages 
 Neofetch (A command-line system information tool written in bash 3.2+)
+
 Arc-Theme (Arc is a flat theme with transparent elements)
+
 FFmpeg (A complete, cross-platform solution to record, convert and stream audio and video)
+
 ```
 sudo apt-get install ffmpeg neofetch arc-theme
 ```
@@ -63,7 +66,7 @@ sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt update  
 sudo apt install flatpak  
 sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 https://flathub.org/home
 
@@ -72,7 +75,7 @@ https://flathub.org/home
 ```
 sudo apt install flatpak  
 sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 https://flathub.org/home
 
@@ -175,6 +178,7 @@ sudo apt-get purge --auto-remove packagename
 https://askubuntu.com/questions/187888/what-is-the-correct-way-to-completely-remove-an-application
 
 ### Convert M4A audio files to MP3
+Remeber to install FFmpeg first
 
 ```
 ffmpeg -i audio.m4a -acodec libmp3lame -ab 256k audio.mp3

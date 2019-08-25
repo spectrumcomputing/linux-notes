@@ -10,7 +10,9 @@ sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl s
 ```
 
 ### Optional nice to have packages 
-(Neofetch (A command-line system information tool written in bash 3.2+), Arc-Theme (Arc is a flat theme with transparent elements) and FFmpeg (A complete, cross-platform solution to record, convert and stream audio and video)
+Neofetch (A command-line system information tool written in bash 3.2+)
+Arc-Theme (Arc is a flat theme with transparent elements)
+FFmpeg (A complete, cross-platform solution to record, convert and stream audio and video)
 ```
 sudo apt-get install ffmpeg neofetch arc-theme
 ```

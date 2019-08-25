@@ -20,7 +20,9 @@ FFmpeg (A complete, cross-platform solution to record, convert and stream audio 
 sudo apt-get install ffmpeg neofetch arc-theme
 ```
 https://github.com/dylanaraps/neofetch
+
 https://ffmpeg.org/
+
 https://github.com/horst3180/arc-theme
 
 ### Replace Snap installed packages so icon themes work
@@ -82,7 +84,6 @@ https://flathub.org/home
 ### Celluloid (formerly GNOME MPV) Flatpak
 
 ```
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub io.github.celluloid_player.Celluloid
 ```
 https://celluloid-player.github.io/installation.html
@@ -119,14 +120,6 @@ flatpak install flathub org.gabmus.gnome-feeds
 ```
 https://flathub.org/apps/details/org.gabmus.gnome-feeds
 
-### QOwnNotes Flatpak
-Plain-text file notepad with markdown support and ownCloud integration
-
-```
-flatpak install flathub org.qownnotes.QOwnNotes
-```
-https://flathub.org/apps/details/org.qownnotes.QOwnNotes
-https://www.qownnotes.org/
 
 ### Stacer (System Optimizer and Monitor)
 

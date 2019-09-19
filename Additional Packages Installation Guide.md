@@ -1,4 +1,4 @@
-## Additional Packages Installation Notes (Fully tested on Ubuntu 18.04 and 19.04)
+## Ubuntu 19.04 Additional Packages Installation Notes
 
 You are advised not to copy and paste commands without knowing what they do.  There are links to more information throughout this document to additional information
 
@@ -6,24 +6,8 @@ You are advised not to copy and paste commands without knowing what they do.  Th
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer 
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer arc-theme ffmpeg
 ```
-
-### Optional nice to have packages 
-Neofetch (A command-line system information tool written in bash 3.2+)
-
-Arc-Theme (Arc is a flat theme with transparent elements)
-
-FFmpeg (A complete, cross-platform solution to record, convert and stream audio and video)
-
-```
-sudo apt-get install ffmpeg neofetch arc-theme
-```
-https://github.com/dylanaraps/neofetch
-
-https://ffmpeg.org/
-
-https://github.com/horst3180/arc-theme
 
 ### Replace Snap installed packages so icon themes work
 ```
@@ -39,11 +23,10 @@ sudo apt update && sudo apt install papirus-icon-theme
 ```
 
 ### Docker
-#### In Ubuntu 19.04 replace bionic with disco
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"  
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu disco stable"  
 sudo apt-get update  
 sudo apt install docker-ce  
 sudo usermod -aG docker ${USER}  
@@ -61,18 +44,6 @@ nodejs -v
 npm -v  
 ```
 ### Flatpak
-##### Ubuntu 18.04
-
-```
-sudo add-apt-repository ppa:alexlarsson/flatpak  
-sudo apt update  
-sudo apt install flatpak  
-sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-https://flathub.org/home
-
-##### Ubuntu 19.04
 
 ```
 sudo apt install flatpak  
@@ -123,28 +94,6 @@ sudo apt-get install stacer -y
 
 https://github.com/oguzhaninan/Stacer
 
-### Grub Customiser
-
-```
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-sudo apt-get update
-sudo apt-get install grub-customizer
-```
-https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer
-
-### VMWare Workstation
-
-```
-sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms build-essential
-```
-
-https://www.vmware.com/uk/products/workstation-pro/workstation-pro-evaluation.html
-
-```
-chmod +x VMware*.bundle
-sudo ./VMware*.bundle
-```
-https://linuxconfig.org/install-vmware-tools-on-ubuntu-18-04-bionic-beaver-linux
 
 ### Ungroup Utilities on Gnome Desktop (Does not appear to be a permanent solution)
 ```
@@ -171,24 +120,6 @@ ffmpeg -i audio.m4a -acodec libmp3lame audio.mp3
 ffmpeg -v 5 -y -i audio.m4a -acodec libmp3lame -ac 2 -ab 192k audio.mp3
 ```
 
-### Nutty (A network utility for linux)
-
-    sudo apt-get install libgranite-dev libnotify-dev libxml2-dev libgee-0.8-dev libgtk-3-dev libsqlite3-dev meson valac net-tools nethogs nmap traceroute vnstat curl wireless-tools iproute2 pciutils git build-essential
-    
-These commands will build Nutty from source:
-
-    git clone https://github.com/babluboy/nutty.git
-    cd nutty
-    meson build --prefix=/usr
-    cd build
-    ninja
-    
- Then run these commands to install it:
- 
-     sudo ninja install
-     com.github.babluboy.nutty
-
-https://babluboy.github.io/nutty/
 
 ### Nmap
 
@@ -246,10 +177,6 @@ https://extensions.gnome.org/extension/750/openweather/
 https://extensions.gnome.org/extension/836/internet-radio/
 
 https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
-
-https://kb.vmware.com/s/article/1002411
-
-https://askubuntu.com/questions/537787/enable-3d-hw-acceleration-on-vmware-workstation-10-on-ubuntu-14-04
 
 https://odio.io/
 

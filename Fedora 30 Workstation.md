@@ -52,7 +52,7 @@ sudo firewall-cmd --add-service=cockpit --permanent
 
 https://ip-address-of-machine:9090
 
-Note: Copy ISO files to /var/libvirt/images
+Note: Copy ISO files to /var/lib/libvirt/images
 
 https://cockpit-project.org/running#fedora
 

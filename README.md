@@ -1,3 +1,3 @@
-# ubuntu-linux
+# Linux Notes from Peter Jones
 
-This repository contains a number of guides on installing additional software on Ubuntu 18.04 and later.  I hope you find something useful within my notes.
+This repository contains my collection of notes I keep whilst I continue my adventures with Linux.  I hope you find something useful within my notes.

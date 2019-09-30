@@ -6,9 +6,12 @@ sudo dnf check-update
 sudo dnf update
 ```
 
-### Themese and Icons
+### Arc Theme
 ```
 sudo dnf install gnome-tweak-tool arc-theme
+```
+### Papirus Icon Theme
+```
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
 ```
 

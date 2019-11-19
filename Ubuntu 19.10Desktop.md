@@ -183,3 +183,5 @@ https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
 https://github.com/ytdl-org/youtube-dl
 
+http://docs.flatpak.org/en/latest/using-flatpak.html
+

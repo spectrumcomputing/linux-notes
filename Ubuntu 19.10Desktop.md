@@ -1,4 +1,4 @@
-## Ubuntu 19.04 Additional Packages Installation Notes
+## Ubuntu 19.10 Additional Packages Installation Notes
 
 You are advised not to copy and paste commands without knowing what they do.  There are links to more information throughout this document to additional information
 

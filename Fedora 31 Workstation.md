@@ -1,4 +1,4 @@
-## Fedora 30
+## Fedora 31
 ### Always make sure you understand the commands given. Most of the sections include a link to the appropriate documentation
 
 ### Updating the system

@@ -6,13 +6,13 @@ You are advised not to copy and paste commands without knowing what they do.  Th
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common gcc g++ make chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer arc-theme ffmpeg
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer arc-theme ffmpeg
 ```
 
 ### Replace Snap installed packages so icon themes work
 ```
-sudo snap remove gnome-calculator gnome-characters gnome-logs gnome-system-monitor
-sudo apt install gnome-calculator gnome-characters gnome-logs gnome-system-monitor
+sudo snap remove gnome-calculator gnome-characters gnome-logs 
+sudo apt install gnome-calculator gnome-characters gnome-logs 
 ```
 
 ### Papirus Icon Theme
@@ -22,11 +22,11 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt update && sudo apt install papirus-icon-theme  
 ```
 
-### Docker
+### Docker - NOT YET AVAILABLE
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu disco stable"  
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu Eoan stable"  
 sudo apt-get update  
 sudo apt install docker-ce  
 sudo usermod -aG docker ${USER}  
@@ -52,36 +52,45 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 https://flathub.org/home
 
-### Celluloid (formerly GNOME MPV) Flatpak
-
-```
-flatpak install flathub io.github.celluloid_player.Celluloid
-```
-https://celluloid-player.github.io/installation.html
-
-### Filezilla Flatpak
+## Flatpak Applications
+### FileZilla
 FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface
-
 ```
 flatpak install flathub org.filezillaproject.Filezilla
 ```
-https://flathub.org/apps/details/org.filezillaproject.Filezilla
-
-### Evolution Flatpak
+### Evolution
 Manage your email, contacts and schedule
-
 ```
 flatpak install flathub org.gnome.Evolution
 ```
-https://flathub.org/apps/details/org.gnome.Evolution
-
-### Spotify Flatpak
-Online music streaming service
+### GNOME Music
+Play and organize your music collection
+```
+flatpak install flathub org.gnome.Music
+```
+### GNOME Maps
+Find places around the world
+```
+flatpak install flathub org.gnome.Maps
+```
+### GNOME Weather
+Show weather conditions and forecast
+```
+flatpak install flathub org.gnome.Weather
+```
+### PulseAudio Volume Control
+Adjust the volume level of hardware devices and applications
+```
+flatpak install flathub org.pulseaudio.pavucontrol
+```
+### Celluloid (formerly GNOME MPV)
 
 ```
-flatpak install flathub com.spotify.Client
+sudo add-apt-repository ppa:xuzhen666/gnome-mpv
+sudo apt-get update
+sudo apt-get install celluloid
 ```
-https://flathub.org/apps/details/com.spotify.Client
+https://celluloid-player.github.io/installation.html
 
 
 ### Stacer (System Optimizer and Monitor)
@@ -95,15 +104,6 @@ sudo apt-get install stacer -y
 https://github.com/oguzhaninan/Stacer
 
 
-### Ungroup Utilities on Gnome Desktop (Does not appear to be a permanent solution)
-```
-gsettings set org.gnome.desktop.app-folders folder-children ['']
-```
-
-### Find Windows 10 Product Key - Only works where the license key is embedded into the hardware (mainly laptops)
-```
-sudo cat /sys/firmware/acpi/tables/MSDM | tail -c 32 | xargs -0 echo
-```
 ### Completely remove a package
 
 ```
@@ -119,7 +119,12 @@ ffmpeg -i audio.m4a -acodec libmp3lame -ab 256k audio.mp3
 ffmpeg -i audio.m4a -acodec libmp3lame audio.mp3
 ffmpeg -v 5 -y -i audio.m4a -acodec libmp3lame -ac 2 -ab 192k audio.mp3
 ```
+### Enable DVD Playback
 
+```
+sudo apt install libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
+```
+https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
 
 ### Nmap
 
@@ -130,15 +135,9 @@ sudo nmap -sn 192.168.1.0/24
 ```
 https://nmap.org/
 
-### get-iplayer Snap
-Command Line tool for downloading tv and radio programmes from the last 30 days from the BBC iPlayer.
-```
-sudo snap install get-iplayer
-```
-https://snapcraft.io/install/get-iplayer/ubuntu
 
 ### youtube-dl 
-Later versions of Ubuntu only ship with Python3 which is called python3 rather than python. This can cause some problems. This method of installation has been tested on Ubuntu 19.04
+Later versions of Ubuntu only ship with Python3 which is called python3 rather than python. This can cause some problems. This method of installation has been tested on Ubuntu 19.10
 
     sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
@@ -184,4 +183,3 @@ https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
 https://github.com/ytdl-org/youtube-dl
 
-https://linuxappstore.io/

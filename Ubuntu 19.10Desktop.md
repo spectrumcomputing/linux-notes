@@ -22,7 +22,7 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt update && sudo apt install papirus-icon-theme  
 ```
 
-### Docker - NOT YET AVAILABLE
+### Docker - **Not Yet Available**
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
@@ -93,7 +93,7 @@ sudo apt-get install celluloid
 https://celluloid-player.github.io/installation.html
 
 
-### Stacer (System Optimizer and Monitor)
+### Stacer (System Optimizer and Monitor) **Not Yet Available**
 
 ```
 sudo add-apt-repository ppa:oguzhaninan/stacer -y

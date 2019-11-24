@@ -6,7 +6,7 @@ You are advised not to copy and paste commands without knowing what they do.  Th
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential ubuntu-restricted-extras ttf-mscorefonts-installer arc-theme ffmpeg
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential ubuntu-restricted-extras arc-theme ffmpeg
 ```
 
 ### Replace Snap installed packages so icon themes work

@@ -6,9 +6,12 @@ You are advised not to copy and paste commands without knowing what they do.  Th
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential ubuntu-restricted-extras arc-theme ffmpeg
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential arc-theme ffmpeg
 ```
-
+### Ubuntu Restricted Extras
+```
+sudo apt-get install ubuntu-restricted-extras 
+```
 ### Replace Snap installed packages so icon themes work
 ```
 sudo snap remove gnome-calculator gnome-characters gnome-logs 
@@ -78,11 +81,7 @@ Show weather conditions and forecast
 ```
 flatpak install flathub org.gnome.Weather
 ```
-#### PulseAudio Volume Control
-Adjust the volume level of hardware devices and applications
-```
-flatpak install flathub org.pulseaudio.pavucontrol
-```
+
 ### Celluloid (formerly GNOME MPV)
 
 ```
@@ -91,17 +90,6 @@ sudo apt-get update
 sudo apt-get install celluloid
 ```
 https://celluloid-player.github.io/installation.html
-
-
-### Stacer (System Optimizer and Monitor) **Not Yet Available**
-
-```
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt-get update
-sudo apt-get install stacer -y
-```
-
-https://github.com/oguzhaninan/Stacer
 
 
 ### Completely remove a package

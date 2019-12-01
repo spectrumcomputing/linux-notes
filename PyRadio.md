@@ -1,7 +1,7 @@
 ## PyRadio
 #### Command line internet radio player.
 ```
-sudo apt-get install mplayer python3-setuptools
+sudo apt-get install mplayer python3-setuptools git
 ```
 ```
 git clone https://github.com/coderholic/pyradio.git

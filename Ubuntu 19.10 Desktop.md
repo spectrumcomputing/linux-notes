@@ -16,7 +16,7 @@ sudo apt-get install ubuntu-restricted-extras
 
 ### Additional GNOME Applications
 ```
-sudo apt-get install gnome-photos gnome-weather gnome-music gnome-maps
+sudo apt-get install gnome-photos gnome-weather gnome-music gnome-maps rhythmbox
 ```
 ### Replace Snap installed packages so icon themes work
 ```
@@ -61,32 +61,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 https://flathub.org/home
 
-## Flatpak Applications
-#### FileZilla
-FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface
-```
-flatpak install flathub org.filezillaproject.Filezilla
-```
-#### Evolution
-Manage your email, contacts and schedule
-```
-flatpak install flathub org.gnome.Evolution
-```
-#### GNOME Music
-Play and organize your music collection
-```
-flatpak install flathub org.gnome.Music
-```
-#### GNOME Maps
-Find places around the world
-```
-flatpak install flathub org.gnome.Maps
-```
-#### GNOME Weather
-Show weather conditions and forecast
-```
-flatpak install flathub org.gnome.Weather
-```
 
 ### Celluloid (formerly GNOME MPV)
 

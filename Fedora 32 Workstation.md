@@ -15,32 +15,16 @@ sudo dnf install gnome-tweak-tool arc-theme
 ```
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
 ```
+### Change Hostname
+```
+sudo hostnamectl set-hostname new-name
+```
 
 ### Removing LibreOffice
 ```
 sudo dnf groupremove "LibreOffice"
 sudo dnf erase libreoffice*
 ```
-
-### Visual Studio Code
-```
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-sudo dnf check-update
-sudo dnf install code
-```
-https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
-
-### NodeJS
-```
-sudo dnf install -y gcc-c++ make
-curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
-sudo dnf install nodejs
-node --version
-npm --version
-```
-
-https://tecadmin.net/install-latest-nodejs-on-fedora/
 
 ### Cockpit
 ```

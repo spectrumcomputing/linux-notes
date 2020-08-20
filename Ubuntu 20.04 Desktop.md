@@ -1,4 +1,4 @@
-## Ubuntu 19.10 Additional Packages Installation Notes
+## Ubuntu 20.04 Additional Packages Installation Notes
 
 You are advised not to copy and paste commands without knowing what they do.  There are links to more information throughout this document to additional information
 
@@ -6,7 +6,7 @@ You are advised not to copy and paste commands without knowing what they do.  Th
 ### Install required packages
 
 ```
-sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential arc-theme ffmpeg pavucontrol
+sudo apt-get install gnome-tweak-tool apt-transport-https ca-certificates curl software-properties-common chrome-gnome-shell build-essential
 
 ```
 ### Ubuntu Restricted Extras
@@ -18,11 +18,6 @@ sudo apt-get install ubuntu-restricted-extras
 ```
 sudo apt-get install gnome-photos gnome-weather gnome-music gnome-maps rhythmbox
 ```
-### Replace Snap installed packages so icon themes work
-```
-sudo snap remove gnome-calculator gnome-characters gnome-logs 
-sudo apt install gnome-calculator gnome-characters gnome-logs 
-```
 
 ### Papirus Icon Theme
 
@@ -30,37 +25,6 @@ sudo apt install gnome-calculator gnome-characters gnome-logs
 sudo add-apt-repository ppa:papirus/papirus  
 sudo apt update && sudo apt install papirus-icon-theme  
 ```
-
-### Docker - **Not Yet Available**
-
-```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu Eoan stable"  
-sudo apt-get update  
-sudo apt install docker-ce  
-sudo usermod -aG docker ${USER}  
-su - ${USER}  
-docker run hello-world  
-```
-
-### NodeJS
-
-```
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh  
-sudo bash nodesource_setup.sh  
-sudo apt install nodejs  
-nodejs -v  
-npm -v  
-```
-### Flatpak
-
-```
-sudo apt install flatpak  
-sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-https://flathub.org/home
-
 
 ### Celluloid (formerly GNOME MPV)
 
@@ -145,11 +109,14 @@ https://extensions.gnome.org/extension/836/internet-radio/
 
 https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
 
-https://odio.io/
-
 https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
-https://github.com/ytdl-org/youtube-dl
+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
-http://docs.flatpak.org/en/latest/using-flatpak.html
+https://github.com/jnsh/arc-theme
+
+https://packages.debian.org/bullseye/arc-theme
+
+
+
 

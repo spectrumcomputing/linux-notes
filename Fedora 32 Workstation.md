@@ -1,4 +1,4 @@
-## Fedora 31
+## Fedora 32
 ### Always make sure you understand the commands given. Most of the sections include a link to the appropriate documentation
 
 ### Updating the system
@@ -67,7 +67,16 @@ https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
 
 ### Enabling Multimedia support
 ```
-sudo dnf install gstreamer1-libav gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-bad-nonfree gstreamer1-plugins-good gstreamer1-plugins-ugly lame-libs lame-libs
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+
+sudo dnf install lame\* --exclude=lame-devel
+
+sudo dnf group upgrade --with-optional Multimedia
 ```
 
 https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/
+
+
+### Other Packages
+```
+sudo dnf install filezilla celluloid

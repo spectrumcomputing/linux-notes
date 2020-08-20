@@ -1,4 +1,4 @@
-# Installing z88dk on Ubuntu Linux 18.04, 18.10 or 19.04
+# Installing z88dk on Ubuntu Linux 20.04
 
 ## Introduction
 
@@ -14,25 +14,6 @@ If you don't already have an emulator installed I reccomend Fuse. From the comma
 
     sudo apt-get install fuse-emulator-gtk spectrum-roms
     
-Sometimes the versions of Fuse in the Ubuntu repositories are out of date.  If you want to make sure you have the latest version you can use FlatPak and install Fuse from here:
-
-https://flathub.org/apps/details/net.sf.fuse_emulator
-
-Ubuntu 18.04 does not have FlatPak installed by default, but it can easily be installed by using the following commands:
-``` 
-sudo add-apt-repository ppa:alexlarsson/flatpak  
-sudo apt update  
-sudo apt install flatpak  
-sudo apt install gnome-software-plugin-flatpak  
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
-``` 
-If you are using Ubuntu 19.04 or later you can just:
-
-    sudo apt-get install flatpak
-
-Once you have rebooted you can install Fuse using:
-
-    flatpak install flathub net.sf.fuse_emulator
 ## Getting Started with z88dk
 
 Download the latest nightly checked source package and unzip it:

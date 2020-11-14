@@ -40,5 +40,17 @@ https://pimylifeup.com/raspberry-pi-samba/
     sudo systemctl restart smbd
 
     hostname -I
+    
+    [Raspberry Pi Share]
+    Comment = Pi shared folder
+    Path = "/home/pi/share"
+    Browseable = yes
+    Writeable = Yes
+    only guest = no
+    create mask = 0777
+    directory mask = 0777
+    Public = yes
+    Guest ok = yes
+
 
 

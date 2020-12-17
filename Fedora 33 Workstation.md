@@ -1,4 +1,4 @@
-## Fedora 32
+## Fedora 34
 ### Always make sure you understand the commands given. Most of the sections include a link to the appropriate documentation
 
 ### Updating the system
@@ -7,10 +7,16 @@ sudo dnf check-update
 sudo dnf update
 ```
 
-### Arc Theme
+### Gnome Tweak Tool
 ```
-sudo dnf install gnome-tweak-tool arc-theme
+sudo dnf install gnome-tweak-tool
 ```
+### Arc Theme`
+```
+sudo dnf copr enable mhdahmad/workstation
+sudo dnf install arc-theme
+```
+
 ### Papirus Icon Theme
 ```
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
@@ -64,3 +70,9 @@ https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-
 ### Other Packages
 ```
 sudo dnf install filezilla celluloid
+```
+
+### Fuse Spectrum Emulator
+```
+sudo dnf install fuse-emulator spectrum-roms fuse-emulator-roms
+```

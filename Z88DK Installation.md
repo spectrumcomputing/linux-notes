@@ -1,4 +1,4 @@
-# Installing z88dk on Ubuntu Linux 20.04
+# Installing z88dk on Ubuntu Linux 20.04 & Fedora 33
 
 ## Introduction
 
@@ -10,9 +10,13 @@ https://github.com/z88dk/z88dk/wiki/installation
 
 https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingStarted.md
 
-If you don't already have an emulator installed I reccomend Fuse. From the command line, enter the following commands to install it:
+If you don't already have an emulator installed I reccomend Fuse. 
 
-    sudo apt-get install fuse-emulator-gtk spectrum-roms
+If you are using Ubuntu then enter the following commands to install it:
+
+    sudo apt-get install fuse-emulator-gtk spectrum-roms 
+    
+ Fedora instructions to follow
     
 ## Getting Started with z88dk
 
@@ -23,9 +27,13 @@ Download the latest nightly checked source package and unzip it:
 
 This will create a populated z88dk directory in the current working directory.
 
-You will need the following libraries/packages installed to successfully build z88dk:
+If you are using Ubuntu you will need the following libraries/packages installed to successfully build z88dk
 
     sudo apt-get install dos2unix libboost-all-dev texinfo texi2html libxml2-dev subversion bison flex zlib1g-dev
+    
+If you are using Fedora you will need the following libraries/packages installed to successfully build z88dk
+    
+    sudo dnf install dos2unix boost-devel texinfo texi2html libxml2-devel subversion bison flex zlib-devel
     
 Then enter:
 
